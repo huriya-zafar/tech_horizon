@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Horizons 2025 Registration</title>
+    <style>
+        body {
+            font-family: 'Segoe UI';
+            margin: 0;
+            padding: 0;
+            background: url('img 2.jpg');
+            background-size: cover;
+
+            color: white;
+        }
+
+        header {
+            background-color: rgba(0, 31, 63, 0.9); 
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #a7eaec; 
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 360px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        input:focus, select:focus {
+            border-color: #007BFF;
+            outline: none;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+
+            form {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpeg" alt="Tech Horizons Logo">
+        <h1>Tech Horizons 2025</h1>
+    </header>
+    <main>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+                        <input type="text" id="phone" name="phone" placeholder="Enter your contact number" required>
+
+            <label for="city">City:</label>
+            <select id="city" name="city" required>
+                <option value="">Select your city</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Peshawar">Peshawar</option>
+            </select>
+
+            <label for="project-name">Project Name:</label>
+            <input type="text" id="project-name" name="project-name" placeholder="Enter your project name" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <footer>&copy; 2025 Tech Horizons. All rights reserved.</footer>
+    </main>
+</body>
+</html>
